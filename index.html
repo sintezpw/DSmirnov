@@ -1,17 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Техномарт</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
 
 		<link rel="stylesheet" href="styles/main.css">
 	</head>
 	<body>
-		<h1>Hello world!</h1>
-		<p>We are ready to go.</p>
-
+		<header class="main-header">
+			<div class="main-header__item">
+				<div class="main-header__container">
+					<div class="main-header__top-menu">
+						<a href="index.html" class="logo"><h1>Техномарт</h1></a>
+						<div class="form-search">
+							<form role="search">
+								<input type="search" id="mysearch" name="search" aria-label="Поиск по сайту" placeholder="Поиск:">
+								<button class="search__btn btn">Поиск:</button>
+							</form>
+						</div>
+						<ul class="top-menu__list">
+							<li>
+								<a href="#" class="text bookmark">Закладки: 0</a>
+							</li>
+							<li>
+								<a href="#" class="text basket">Корзина: 0</a>
+							</li>
+							<li>
+								<a href="#" class="btn-menu">Оформить заказ</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main-header__top">
+						<div class="top__info">
+							<p>Интернет-магазин строительных материалов<br> и инструментов для ремонта</p>
+						</div>
+						<div class="top__number">
+							<a href="tel:78125550555">+7 (812) 555-05-55</a>
+								<div class="top__number__item">
+									<p>г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+								</div>
+						</div>
+						<div class="user-sign">
+							<div class="user-sign__sign-in">
+								<a href="#" class="sign">
+									Войти
+								</a>
+							</div>
+							<div class="user-regist">
+								<a href="#" class="regist">
+									Регистрация
+								</a>
+							</div>
+						</div>
+						<nav class="main-nav">
+							<ul class="main-nav__menu">
+								<li>
+									<a href="#">Главная</a>
+								</li>
+								<li>
+									<a href="#">Компания</a>
+								</li>
+								<li>
+									<a href="#">Каталог</a>
+								</li>
+								<li>
+									<a href="#">Новости</a>
+								</li>
+								<li>
+									<a href="#">Спецпредложения</a>
+								</li>
+								<li>
+									<a href="#">Доставка</a>
+								</li>
+								<li>
+									<a href="#">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
 		<script src="scripts/main.js"></script>
 	</body>
 </html>
