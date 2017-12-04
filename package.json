@@ -1,0 +1,27 @@
+{
+	"name": "DSmirnov",
+	"version": "1.0.0",
+	"description": "Дмитрий Смирнов",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"node-sass": "^4",
+		"@pingy/cli": "^0.10.3"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "pingy dev",
+		"export": "pingy export"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Dimka44/DSmirnov.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Dimka44/DSmirnov/issues"
+	},
+	"homepage": "https://github.com/Dimka44/DSmirnov#readme"
+}
