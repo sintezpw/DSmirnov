@@ -12,8 +12,10 @@
 		<header class="main-header">
 			<div class="main-header__item">
 				<div class="container">
-					<div class="main-header__top-menu">
-						<a href="index.html" class="header__logo"><h1>Техномарт</h1></a>
+					<div class="top-menu">
+						<div class="top_menu__logo">
+							<a href="index.html" class="logo"><h1>Техномарт</h1></a>
+						</div>
 						<div class="top-menu__form-search">
 							<form role="search">
 								<input type="search" id="mysearch" name="search" aria-label="Поиск по сайту" placeholder="Поиск:">
@@ -32,49 +34,49 @@
 							</li>
 						</ul>
 					</div>
-					<div class="main-header__top">
-						<div class="top__info">
+					<div class="main-header__middle">
+						<div class="main-header__middle__info">
 							<p>Интернет-магазин строительных материалов<br> и инструментов для ремонта</p>
 						</div>
-						<div class="top__number">
+						<div class="main-header__middle__number">
 							<a href="tel:78125550555">+7 (812) 555-05-55</a>
-								<div class="top__number__adress">
+								<div class="main-header__middle__adress">
 									<p>г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 								</div>
 						</div>
-						<div class="user-sign">
-							<div class="user-sign__sign-in">
+						<div class="user-sign-register">
+							<div class="user-sign-registr__sign-in">
 								<a href="#" class="sign btn">
 									Войти
 								</a>
 							</div>
-							<div class="user-regist">
-								<a href="#" class="regist btn">
+							<div class="user-sign-register__register">
+								<a href="#" class="register btn">
 									Регистрация
 								</a>
 							</div>
 						</div>
 						<nav class="main-nav">
 							<ul class="main-nav__menu">
-								<li class="main-nav__menu__item">
+								<li class="main-nav__item">
 									<a href="#" class="link">Главная</a>
 								</li>
-								<li class="main-nav__menu__item">
+								<li class="main-nav__item">
 									<a href="#" class="link">Компания</a>
 								</li>
-								<li class="main-nav__menu__item">
+								<li class="main-nav__item">
 									<a href="#" class="link">Каталог</a>
 								</li>
-								<li class="main-nav__menu__item">
+								<li class="main-nav__item">
 									<a href="#" class="link">Новости</a>
 								</li>
-								<li class="main-nav__menu__item">
+								<li class="main-nav__item">
 									<a href="#" class="link">Спецпредложения</a>
 								</li>
-								<li class="main-nav__menu__item">
+								<li class="main-nav__item">
 									<a href="#" class="link">Доставка</a>
 								</li>
-								<li class="main-nav__menu__item">
+								<li class="main-nav__item">
 									<a href="#" class="link">Контакты</a>
 								</li>
 							</ul>
@@ -85,7 +87,7 @@
 		</header>
 		<main>
 			<div class="container">
-				<div class="main__items">
+				<div class="items">
 					<div class="item">
 						<div class="item__new"></div>
 						<p class="item__title">Материалы</p>
@@ -111,8 +113,8 @@
 					<div class="photo-controls">
 						<div class="slider-1">
 							<div class="slider__title">
-								<p class="title-sliders">Перфораторы</p>
-								<p class="slogan">Настоящие мужские игрушки</p>
+								<p class="slider-text">Перфораторы</p>
+								<p class="slider__slogan">Настоящие мужские игрушки</p>
 							</div>
 							<div class="slider__desc">
 								<a href="catalog.html">Открыть каталог</a>
@@ -120,8 +122,8 @@
 						</div>
 						<div class="slider-2">
 							<div class="slider__title">
-								<p class="title-sliders">Дрели</p>
-								<p class="slogan">Дрели соседям на радость!</p>
+								<p class="slider-text">Дрели</p>
+								<p class="slider__slogan">Дрели соседям на радость!</p>
 							</div>
 							<div class="slider__desc">
 								<a href="catalog.html">Открыть каталог</a>
@@ -141,11 +143,11 @@
 						</div>
 				</div>
 				</div>
-				<div class="main__popular">
+				<div class="popular">
 					<h2>Популярные товары:</h2>
 					<a href="#">Все популярные товары</a>
 				</div>
-				<div class="main__catalog">
+				<div class="catalog">
 					<div class="catalog-item">
 						<a href="#">
 							<figure>
@@ -153,17 +155,17 @@
 							</figure>
 						</a>
 						<div class="catalog-item__desc">
-							<p class="desc__title">Перфоратор BOSCH BFG 9000</p>
-							<p class="delet">32500 ₽</p>
-							<div class="btn">
+							<p class="catalog-item__title">Перфоратор BOSCH BFG 9000</p>
+							<p class="catalog-item__delete">32500 ₽</p>
+							<div class="catalog-item__btn">
 								<button type="submit">25500 ₽</button>
 							</div>
 						</div>
 						<div class="catalog-item__pay">
-							<a href="#" class="pay__link">
+							<a href="#" class="catalog-item__pay__link">
 								Купить
 							</a>
-							<a href="#" class="pay__link">
+							<a href="#" class="catalog-item__pay__link">
 								В закладки
 							</a>
 						</div>
@@ -171,87 +173,87 @@
 				<div class="catalog-item">
 					<a href="#">
 					<figure>
-						<img class="img-catalog bfg3" src="img/catalog2.jpg" alt="" width="127px" height="112px">
+						<img src="img/catalog2.jpg" alt="" width="127px" height="112px">
 					</figure>
 					</a>
 					<div class="catalog-item__desc">
-						<p class="desc__title">Перфоратор BOSCH BFG 3000</p>
-						<p class="delet">22500 ₽</p>
-						<div class="btn">
+						<p class="catalog-item__title">Перфоратор BOSCH BFG 3000</p>
+						<p class="catalog-item__delete">22500 ₽</p>
+						<div class="catalog-item__btn">
 							<button type="submit">15500 ₽</button>
 						</div>
 					</div>
 					<div class="catalog-item__pay">
-						<a href="#" class="pay__link">
+						<a href="#" class="catalog-item__pay__link">
 							Купить
 						</a>
-						<a href="#" class="pay__link">
+						<a href="#" class="catalog-item__pay__link">
 							В закладки
 						</a>
 					</div>
 				</div>
 				<div class="catalog-item">
 					<figure>
-						<img class="img-catalog bfg6000" src="img/catalog3.jpg" alt="" width="144px" height="128px">
+						<img src="img/catalog3.jpg" alt="" width="144px" height="128px">
 					</figure>
 					<div class="catalog-item__desc">
-						<p class="desc__title">Перфоратор BOSCH BFG 6000</p>
-						<p class="delet">30500 ₽</p>
-						<div class="btn">
+						<p class="catalog-item__title">Перфоратор BOSCH BFG 6000</p>
+						<p class="catalog-item__delete">30500 ₽</p>
+						<div class="catalog-item__btn">
 							<button type="submit">25500 ₽</button>
 						</div>
 					</div>
 					<div class="catalog-item__pay">
-						<a href="#" class="pay__link">
+						<a href="#" class="catalog-item__pay__link">
 							Купить
 						</a>
-						<a href="#" class="pay__link">
+						<a href="#" class="catalog-item__pay__link">
 							В закладки
 						</a>
 					</div>
 				</div>
 				<div class="catalog-item">
-					<div class="new-catalog"></div>
+					<div class="catalog-item__new"></div>
 					<figure>
-						<img class="img-catalog" src="img/catalog4.jpg" alt="" width="127px" height="112px">
+						<img src="img/catalog4.jpg" alt="" width="127px" height="112px">
 					</figure>
 					<div class="catalog-item__desc">
-						<p class="desc__title">Перфоратор BOSCH BFG 2000</p>
-						<div class="btn">
+						<p class="catalog-item__title">Перфоратор BOSCH BFG 2000</p>
+						<div class="catalog-item__btn">
 							<button type="submit">12500 ₽</button>
 						</div>
 					</div>
 					<div class="catalog-item__pay">
-						<a href="#" class="pay__link">
+						<a href="#" class="catalog-item__pay__link">
 							Купить
 						</a>
-						<a href="#" class="pay__link">
+						<a href="#" class="catalog-item__pay__link">
 							В закладки
 						</a>
 					</div>
 				</div>
 				</div>
-					<div class="main__popular manufacturs">
+					<div class="popular manufacturs">
 						<h3>Популярные производители:</h3>
 						<a href="#">Все производители</a>
 					</div>
-					<div class="main__manufacturs">
-						<a href="#" class="bosch"><img src="img/bosch.png" alt=""></a>
-						<a href="#" class="makita"><img src="img/Makita.png" alt=""></a>
-						<a href="#" class="dewalt"><img src="img/DeWALT.png" alt=""></a>
-						<a href="#" class="interscop"><img src="img/interscol.png" alt=""></a>
-						<a href="#" class="hitachi bottom-manufacturs"><img src="img/Hitachi.png" alt=""></a>
-						<a href="#" class="lg bottom-manufacturs"><img src="img/LG.png" alt=""></a>
-						<a href="#" class="aeg bottom-manufacturs"><img src="img/AEG.png" alt=""></a>
-						<a href="#" class="metabo bottom-manufacturs"><img src="img/Metabo.png" alt=""></a>
+					<div class="manufacturs">
+						<a href="#" class="manufacturs__bosch"><img src="img/bosch.png" alt=""></a>
+						<a href="#" class="manufacturs__makita"><img src="img/Makita.png" alt=""></a>
+						<a href="#" class="manufacturs__dewalt"><img src="img/DeWALT.png" alt=""></a>
+						<a href="#" class="manufacturs__interscop"><img src="img/interscol.png" alt=""></a>
+						<a href="#" class="manufacturs__hitachi bottom-manufacturs"><img src="img/Hitachi.png" alt=""></a>
+						<a href="#" class="manufacturs__lg"><img src="img/LG.png" alt=""></a>
+						<a href="#" class="manufacturs__aeg"><img src="img/AEG.png" alt=""></a>
+						<a href="#" class="manufacturs__metabo"><img src="img/Metabo.png" alt=""></a>
 			</div>
-			<div class="main__service">
+			<div class="service">
 				<div class="container">
 					<div class="service-item">
-						<h4>Сервисы</h4>
-						<p class="serv">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+							<h4>Сервисы</h4>
+							<p class="serv">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 						<div class="service-slider">
-								<div class="slider-controls">
+								<div class="service-slider__controls">
 									<input type="radio" id="sliderserv1" name="slider-serv" checked>
 									<input type="radio" id="sliderserv2" name="slider-serv">
 									<input type="radio" id="sliderserv3" name="slider-serv">
@@ -260,9 +262,9 @@
 									<label class="slider-serv-2" for="sliderserv2">Гарантия</label>
 									<label class="slider-serv-3" for="sliderserv3">Кредит</label>
 								</div>
-							<div class="slider-control">
+							<div class="service-slider__control">
 								<div class="sliderserv-1">
-									<p class="slider-title">Доставка</p>
+									<p class="sliderserv__title">Доставка</p>
 									<p class="delive">
 										Мы с удовльствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
 									</p>
@@ -270,14 +272,14 @@
 									<div class="sliderserv__img-1"></div>
 								</div>
 								<div class="sliderserv-2">
-									<p class="title-slider">Гарантия</p>
-									<p class="gurantiee">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцизированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.</p>
-									<p class="p-slider home">Дом уже восстановите как-нибудь сами.</p>
+									<p class="sliderserv__title">Гарантия</p>
+									<p class="sliderserv__gurantiee">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцизированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.</p>
+									<p class="sliderserv__p home">Дом уже восстановите как-нибудь сами.</p>
 									<div class="sliderserv__img-2"></div>
 								</div>
 								<div class="sliderserv-3">
-									<p class="title-slider">Кредит</p>
-									<p class="credit">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+									<p class="sliderserv__title">Кредит</p>
+									<p class="sliderserv__credit">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
 									<button type="submit">Отправить заявку</button>
 									<div class="sliderserv__img-3"></div>
 								</div>
@@ -288,9 +290,9 @@
 			</div>
 			<div class="container">
 				<div class="main__future">
-					<div class="future__information">
-						<div class="title-information">
-							<p class="company">Компания «ТЕХНОМАРТ»</p>
+					<div class="main__future__information">
+						<div class="main__future__information__title">
+							<p class="main__future__information__title__company">Компания «ТЕХНОМАРТ»</p>
 						</div>
 						<p>Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставить равнодушными любителей сэкономить на гасторбайтерах.</p>
 						<p>Мы можем доставить ваш товар в самые отдалённые точки России! Техномарт работает со многими транспортными компаниями:</p>
@@ -329,16 +331,16 @@
 				<div class="footer__catalog">
 					<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <a href="tel:78125550555">+7 (812) 555-05-55</a></p>
 					<ul class="footer__catalog__menu">
-						<li class="footer__catalog__menu__item"><a href="#">Материалы</a></li>
-						<li class="footer__catalog__menu__item"><a href="#">Техника</a></li>
-						<li class="footer__catalog__menu__item"><a href="#">Инструмент</a></li>
-						<li class="footer__catalog__menu__item"><a href="#">Спецпредложения</a></li>
+						<li class="footer__catalog__item"><a href="#">Материалы</a></li>
+						<li class="footer__catalog__item"><a href="#">Техника</a></li>
+						<li class="footer__catalog__item"><a href="#">Инструмент</a></li>
+						<li class="footer__catalog__item"><a href="#">Спецпредложения</a></li>
 					</ul>
 				</div>
 				<div class="footer__social">
 					<div class="container">
-						<p class="techno">© 2010-2017 Компания «Техномарт» Все права защищены</p>
-						<div class="social-item">
+						<p class="footer__social__techno">© 2010-2017 Компания «Техномарт» Все права защищены</p>
+						<div class="footer-social__item">
 							<a class="vk" href="https://vk.com"></a>
 							<a class="fb" href="https://www.facebook.com/"></a>
 							<a class="inst" href="https://www.instagram.com/"></a>
@@ -357,17 +359,17 @@
 		</footer>
 		<div class="modal">
 			<div class="container">
-				<form class="form-modal" action="">
+				<form action="">
 					<div class="user-data">
-						<p class="name"><label for="nam">Ваше имя:</label><input type="text" name="name" placeholder="Представьтесь пожалуйста" id="nam" required></p>
-     					<p class="you-email"><label for="email">Ваш e-mail:</label><input type="email" placeholder="Для отправки ответа" id="email" required></p>
+						<p class="user-data__name"><label for="nam">Ваше имя:</label><input type="text" name="name" placeholder="Представьтесь пожалуйста" id="nam" required></p>
+     					<p class="user-data__you-email"><label for="email">Ваш e-mail:</label><input type="email" placeholder="Для отправки ответа" id="email" required></p>
 					</div>
 					<p><label for="text">Текст письма:</label></p>
      				<p><textarea name="text" cols="50" rows="6" id="text" placeholder="В свободной форме"></textarea></p>
      				<button class="close">X</button>
      			</form>
      		</div>
-     		<div class="form-btn">
+     		<div class="modal__btn">
      			<button type="submit" class="send">Отправить</button>
      		</div>
 		</div>
