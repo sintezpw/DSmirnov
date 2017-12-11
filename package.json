@@ -1,0 +1,38 @@
+{
+  "name": "dsmirnov",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimka44/DSmirnov.git"
+  },
+  "author": "Dima Smirnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dimka44/DSmirnov/issues"
+  },
+  "homepage": "https://github.com/Dimka44/DSmirnov#readme",
+  "devDependencies": {
+    "gulp-csso": "^3.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-posthtml": "^3.0.2",
+    "gulp-svgstore": "^6.1.0",
+    "gulp-webp": "^2.3.0",
+    "run-sequence": "^2.2.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.2.2",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp-less": "^3.3.2",
+    "gulp-rename": "^1.2.2",
+    "postcss-cli": "^4.1.1",
+    "posthtml-include": "^1.1.0"
+  }
+}
